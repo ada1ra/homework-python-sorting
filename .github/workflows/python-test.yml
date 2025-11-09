@@ -30,7 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest --cov=sorting_algorithms --cov-report=term -v
+          pytest
 
   ruff:
     name: Ruff Check
