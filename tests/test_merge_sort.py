@@ -32,13 +32,6 @@ def test_merge_mixed_signs():
     """Слияние с числами разных знаков"""
     left = [-3, 0, 3]
     right = [-2, 1, 4]
-    expected = [-5, -4, -3, -2, -1, 0]
-    assert merge(left, right) == expected
-
-def test_merge_mixed_signs():
-    """Слияние с числами разных знаков"""
-    left = [-3, 0, 3]
-    right = [-2, 1, 4]
     expected = [-3, -2, 0, 1, 3, 4]
     assert merge(left, right) == expected
 
